@@ -16,7 +16,7 @@ body {
   float: left;
   margin: 8%;
 }
-.cardright {
+.card {
   height: 200px;
   width: 150px;
   background-color: rgb(246, 226, 40);
@@ -27,7 +27,7 @@ body {
   margin: 0 10px 50px 50px;
   padding: 5px;
 }
-.cardleft {
+/*.cardleft {
   height: 200px;
   width: 150px;
   background-color: rgb(246, 226, 40);
@@ -37,7 +37,7 @@ body {
   display: block;
   margin: 0 10px 50px 50px;
   padding: 5px;
-}
+}*/
 #game {
   font-family: 'Black Ops One', cursive;
   color: rgb(2, 132, 130);
