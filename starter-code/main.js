@@ -15,11 +15,8 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "queen";
 
-if(cardOne === cardThree) {
+if(cardOne === cardThree || cardTwo === cardFour) {
   alert("You've found a match! Wooo!");
-}
-else if(cardTwo === cardFour) {
-  alert("You've found a match! Wooo!")
 }
 else {
   alert("Sorry, try again.")
