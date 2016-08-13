@@ -1,7 +1,6 @@
 var board = document.getElementById('game-board');
 
-
-var cardsFlipped = 0;
+var cardsInPlay = [];
 
 var cards = ["king", "queen", "king", "queen"];
 
