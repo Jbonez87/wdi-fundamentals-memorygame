@@ -4,7 +4,7 @@ var cardsInPlay = [];
 
 var cards = ["king", "queen", "king", "queen"];
 
-function createBoard {
+function createBoard() {
 	 for(var i = 0; i < cards.length; i++) {
 	   var cardCreate = document.createElement('div');
 	   cardCreate.className += ' card';
