@@ -21,10 +21,10 @@ function isTwoCards() {
   cardsInPlay.push(this.getAttribute('data-card'));
   console.log(this.getAttribute('data-card'));
  	if (this.getAttribute('data-card') === 'king') {
- 		this.innerHTML = "<img src='http://i.imgur.com/bnuv5Im.png'>";
+ 		this.innerHTML = "<img class='card' src='http://i.imgur.com/bnuv5Im.png'>";
  	}
 	else {
- 		this.innerHTML = "<img src='http://i.imgur.com/v6buNt2.png'>";
+ 		this.innerHTML = "<img class='card' src='http://i.imgur.com/v6buNt2.png'>";
  	}
    if (cardsInPlay.length === 2) {
      isMatch(cardsInPlay);
@@ -40,4 +40,4 @@ function isMatch(cards) {
      alert("Sorry, try again.");
    }
 };
-createBoard();
+// createBoard();
