@@ -15,8 +15,6 @@ function createBoard() {
 	 }
  };
 
- createBoard();
-
 function isTwoCards() {
   cardsInPlay.push(this.getAttribute('data-card'));
   console.log(this.getAttribute('data-card'));
@@ -40,4 +38,4 @@ function isMatch(cards) {
      alert("Sorry, try again.");
    }
 };
-// createBoard();
+createBoard();
